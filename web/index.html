@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔎 AI Cold Caller</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="background-elements">
+        <div class="floating-circle circle-1"></div>
+        <div class="floating-circle circle-2"></div>
+        <div class="floating-circle circle-3"></div>
+        <div class="floating-circle circle-4"></div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Processing your request...</p>
+        </div>
+    </div>
+
+    <div class="app">
+        <header>
+            <div class="header-content">
+                <div class="title-section">
+                    <h1><i class="fas fa-robot"></i> AI Cold Caller</h1>
+                    <p class="subtitle">Intelligent Sales Assistant</p>
+                </div>
+                <button id="resetButton" class="back-to-home">
+                    <i class="fas fa-refresh"></i> Reset
+                </button>
+            </div>
+        </header>
+
+        <main class="content">
+            <!-- Bot Selection -->
+            <section id="botSelector" class="section active bot-selector">
+                <div class="welcome-container">
+                    <h2><i class="fas fa-rocket"></i> Welcome to Your AI Assistant</h2>
+                    <p class="welcome-text">Choose a bot to get started and revolutionize your sales approach:</p>
+                </div>
+                <div class="bot-options">
+                    <button class="bot-option" data-bot-type="sales">
+                        <div class="bot-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Sales Bot</h3>
+                        <p>Perfect for pitching our coaching center with AI-powered conversations</p>
+                        <div class="bot-features">
+                            <span class="feature"><i class="fas fa-check"></i> Smart Responses</span>
+                            <span class="feature"><i class="fas fa-check"></i> Lead Qualification</span>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Sales Bot Info -->
+            <section id="salesBot" class="section sales-bot">
+                <div class="guide-header">
+                    <h2><i class="fas fa-gamepad"></i> Sales Bot Guide</h2>
+                    <p class="guide-description">Our AI Sales Bot pitches our education coaching center to leads. Follow these steps for optimal results:</p>
+                </div>
+                
+                <div class="guide-steps">
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Initial Setup</h4>
+                            <p>Initial delay is normal as models load in the backend. Please be patient.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Voice Input</h4>
+                            <p>Speak clearly and wait for the transcript to complete before proceeding.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-mouse-pointer"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Interaction</h4>
+                            <p>Click the voice circle to let the bot respond to your input.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-stopwatch"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Response Time</h4>
+                            <p>First response may take a minute; subsequent ones are much quicker.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="start-button-container">
+                    <button id="startSalesCall" class="start-call-btn">
+                        <i class="fas fa-phone"></i> Start Sales Call
+                    </button>
+                </div>
+            </section>
+
+            <!-- Call Manager -->
+            <section id="callManager" class="section call-manager">
+                <div class="manager-header">
+                    <h2><i class="fas fa-phone-volume"></i> Active Call</h2>
+                    <div class="call-status">
+                        <span class="status-indicator"></span>
+                        <span class="status-text">Ready</span>
+                    </div>
+                </div>
+                <div id="activeCalls" class="active-calls"></div>
+            </section>
+
+            <!-- Call Summary -->
+            <section id="callSummary" class="section call-summary">
+                <div class="summary-header">
+                    <h2><i class="fas fa-chart-line"></i> Call Summary</h2>
+                </div>
+                <div class="summary-content">
+                    <p id="summaryContent"></p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+model = "F5-TTS"
+ref_audio = "/home/hope/Files/Hackathon/AISalesman/data/vocals/Srishti_greeting.wav"
+ref_text = "Hey myself Srishti speaking from study centre. How are you today?"
+gen_text = "I'm glad to hear that you're doing well. I'm calling from Study Centre, and I'd love to discuss how our online educational courses can support your academic goals. What class are you currently studying in?"
+gen_file = ""
+remove_silence = false
+output_dir = "gen"
+output_file = "1736935986_Srishti_-8201308725097692009.wav"
