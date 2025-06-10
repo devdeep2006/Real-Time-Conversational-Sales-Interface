@@ -1,49 +1,51 @@
+# 🚀 Real-Time Conversational Sales Interface
 
-# AI Salesman - Overview
+## 🔍 Project Summary
 
-## Overview
+The **Real-Time Conversational Sales Interface** is an AI-powered virtual agent designed to revolutionize customer communication through intelligent, real-time phone conversations. By combining natural language understanding, voice interaction, and real-time decision-making, it helps businesses engage, inform, and convert customers efficiently and effectively.
 
-The **AI Salesman** is a cutting-edge solution designed to automate and optimize customer interactions via phone calls. This system uses advanced AI technologies to deliver human-like conversations, efficiently handle inquiries, and successfully close sales. By providing fast, reliable, and natural interactions, the AI Salesman helps businesses enhance customer engagement and streamline communication.
-
-For further details read -> [dev.to](https://dev.to/devesh0099/building-an-ai-sales-agent-from-voice-to-pitch-3p6c)
-## Key Features
-
-✨ **Real-Time Interaction**  
-Provides smooth and low-latency conversations for a seamless user experience.
-
-🤖 **Natural Language Processing (NLP)**  
-Ensures context-aware and intelligent responses to customer queries.
-
-🎙️ **Speech-to-Text (STT)**  
-Accurately transcribes customer audio input into text for further processing.
-
-🔊 **Text-to-Speech (TTS)**  
-Generates natural-sounding audio responses to enhance communication.
-
-📈 **Sales Optimization**  
-Engages customers strategically to improve conversion rates.
-
-🔗 **API Integration**  
-Leverages external APIs for enhanced functionality, such as data retrieval and analytics.
-
-📡 **Scalability**  
-Easily customizable for diverse industries and specific use cases.
+> 📖 Learn more: [Building an AI Sales Agent – dev.to](https://dev.to/devesh0099/building-an-ai-sales-agent-from-voice-to-pitch-3p6c)
 
 ---
 
-## Limitations
+## 🌟 Core Capabilities
 
-⚠️ **Language Constraints**  
-Supports only English.
+- 🎧 **Live & Seamless Conversations**  
+  Delivers real-time, low-latency audio interactions for responsive communication.
 
-⚠️ **Memory Constraints**  
-Trades memory for longer calls due to being limited to 8k token memory.
+- 🧠 **Intelligent NLP Engine**  
+  Uses natural language processing to understand context and respond accordingly.
 
-⚠️ **Resource Intensive**  
-Real-time processing may demand significant computational resources.
+- 🗣️ **Speech Recognition (STT)**  
+  Transcribes user speech into text with high accuracy.
 
-⚠️ **Dependency on APIs**  
-System performance relies on the availability and reliability of integrated APIs.
+- 🗨️ **Voice Response Generation (TTS)**  
+  Produces clear, human-like audio replies for a natural experience.
+
+- 📊 **Sales-Focused Dialogue Strategy**  
+  Trained for persuasive, goal-driven sales interactions.
+
+- 🔌 **Modular API Integration**  
+  Connects to third-party services (e.g., databases, CRMs) for real-time data access and analytics.
+
+- 📈 **Scalable & Customizable**  
+  Suitable for multiple industries and configurable to specific business needs.
+
+---
+
+## ⚠️ Known Limitations
+
+- 🗣️ **Language Support**:  
+  Currently supports only English.
+
+- 💾 **Memory Constraints**:  
+  Effective for short-to-medium conversations; limited to 8k tokens per session.
+
+- ⚙️ **Computational Resources**:  
+  Real-time performance depends on sufficient CPU/GPU availability.
+
+- 🔗 **API Dependency**:  
+  System behavior is affected by the reliability of integrated external APIs.
 
 ---
 
