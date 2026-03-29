@@ -12,6 +12,7 @@ import model
 import json
 import tts_file
 import toml
+import numpy
 
 app = FastAPI()
 
