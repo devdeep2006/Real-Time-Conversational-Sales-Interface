@@ -4,8 +4,6 @@
 
 The **Real-Time Conversational Sales Interface** is an AI-powered virtual agent designed to revolutionize customer communication through intelligent, real-time phone conversations. By combining natural language understanding, voice interaction, and real-time decision-making, it helps businesses engage, inform, and convert customers efficiently and effectively.
 
-> 📖 Learn more: [Building an AI Sales Agent – dev.to](https://dev.to/devesh0099/building-an-ai-sales-agent-from-voice-to-pitch-3p6c)
-
 ---
 
 ## 🌟 Core Capabilities
